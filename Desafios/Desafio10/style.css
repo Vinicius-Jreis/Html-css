@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/IDroid.otf) format(opentype), url(fontes/IDroid\ Bold.otf) format(opentype), url(fontes/IDroid\ Bold\ Italic.otf) format(opentype), url(fontes/IDroid\ Italic.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E7E5C1;
+}
+ .cabecalho {
+    background-image: linear-gradient(to bottom, #3BD47F, #1A5C38);
+    padding: 20px 10px 10px 5px;
+    /* text-align: center; */
+    color:#ffffff; 
+} 
+
+.titulo{
+    color: #ffffff;
+    margin: 20px;
+    text-align: center; 
+    font-family: 'Bebas';
+    font-size: 40px;
+    
+}
+
+.info{
+    margin: 30px;
+    text-align: center;
+    justify-content: end;
+    color: #E2F2E9;
+    font-family: 'Bebas' ;
+}
+
+.a1{
+    color: #ffffffa7;
+    text-decoration: none;
+    padding: 5px;
+    text-align: left;
+}
+
+div>a:hover{
+    background-color: rgba(211, 211, 211, 0.47);
+    border-radius: 3px;
+}
+
+.conteudo{
+    margin: 0em 6em 1em 6em;
+    padding: 20px;
+    background-color:#ffffff; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tittle{
+    color: #1A5C38;
+    font-size: 26px;
+    font-family: 'Idroid';
+
+}
+
+.paragrafo{
+    padding: 15px 0px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.tittle2{
+    color: #1A5C38;
+    font-family: "Idroid";
+    /* font-weight: normal; */
+    background-image: linear-gradient(to right, #C4EAD5, #ffffff);
+    font-size: 22px;
+    padding-left: 5px;
+
+}
+
+.img1{
+    align-items: center;
+    height: 200px;
+    width: 630px;
+    /* padding: 10px; */
+}
+
+.img2{
+    height: 180px;
+    width: 270px;  
+}
+
+.tittlex{
+    background-color: #175C33;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+   
+}
+.extra{
+    background-color: #7FE1A9;
+    padding: 13px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.lista1{
+    padding: 13px;
+    list-style-image:url(Imagens/marca15.png);
+    display: inline-block ;
+    
+}
+
+.lista2{
+    display: inline-block;
+    margin-left: 8em;
+    list-style-image:url(Imagens/marca15.png);
+    
+}
+
+.paragrafo1{
+    text-indent: 20px;
+    padding: 3px;
+    text-align: justify;
+}
+
+.link {
+    color: #2FA866;
+    text-decoration: none;
+}
+
+.a2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.a2:hover{
+    color: rgba(0, 0, 0, 0.689);
+    text-decoration:underline;
+}
+
+.link2{
+    color: #1A5C38;
+    text-decoration: none;
+    background-color:#C5EAD6 ;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.marcacao{
+    color: #2FA866;
+}
+
+.reproducao{
+    background-color: #1A5C38;
+    height: 480px;
+   display:flex;
+   margin:2px -20px 20px -20px;
+}
+
+.video{
+    background-color: salmon;
+    /* text-align: justify; */
+    align-self: center; 
+    text-align: auto;
+    height: 450px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: #ffffffa7;
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 8px;
+    font-style: italic;
+    
+}
+
+footer>strong{
+    color: white;
+}
+
+
